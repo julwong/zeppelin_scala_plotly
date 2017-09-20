@@ -34,10 +34,6 @@ class Plotly() {
     
     def drawCanvas() {
         val canvas = s"""%html
-          <script
-          src="https://code.jquery.com/jquery-2.2.4.min.js"
-          integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-          crossorigin="anonymous"></script>
           <script src="https://cdn.plot.ly/plotly-latest.js"></script>
           <div id="plotly_$id" style="min-width: 310px; min-height: 300px; margin: 0 auto"></div>
           """
